@@ -1,0 +1,56 @@
+<h1>Our Products</h1>
+
+<div>
+  <h2>{{ products[0].name }}</h2>
+  <p>Price: {{ products[0].price }}</p>
+  <img [src]="products[0].imageurl" width="150">
+  <button
+    [disabled]="!products[0].available"
+    (click)="buyProduct(products[0].name)">
+    Buy Now
+  </button>
+</div>
+
+<div>
+  <h2>{{ products[1].name }}</h2>
+  <p>Price: {{ products[1].price }}</p>
+  <img [src]="products[1].imageurl" width="150">
+  <button
+    [disabled]="!products[1].available"
+    (click)="buyProduct(products[1].name)">
+    Buy Now
+  </button>
+</div>
+
+<div>
+  <h2>{{ products[2].name }}</h2>
+  <p>Price: {{ products[2].price }}</p>
+  <img [src]="products[2].imageurl" width="150">
+  <button
+    [disabled]="!products[2].available"
+    (click)="buyProduct(products[2].name)">
+    Buy Now
+  </button>
+</div>
+
+<div>
+  <h2>{{ products[3].name }}</h2>
+  <p>Price: {{ products[3].price }}</p>
+  <img [src]="products[3].imageurl" width="150">
+  <button
+    [disabled]="!products[3].available"
+    (click)="buyProduct(products[3].name)">
+    Buy Now
+  </button>
+</div>
+
+<div>
+  <h2>{{ products[4].name }}</h2>
+  <p>Price: {{ products[4].price }}</p>
+  <img [src]="products[4].imageurl" width="150">
+  <button
+    [disabled]="!products[4].available"
+    (click)="buyProduct(products[4].name)">
+    Buy Now
+  </button>
+</div>
